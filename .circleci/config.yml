@@ -13,9 +13,6 @@ jobs:
       - run:
           command: npm run build
           name: Build app
-      - run:
-          command: npm run start:prod
-          name: Start app
       - persist_to_workspace:
           root: ~/project
           paths:
