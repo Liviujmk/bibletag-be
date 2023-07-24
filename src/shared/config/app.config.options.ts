@@ -6,4 +6,5 @@ export const configOptions = {
   MONGO_URI: process.env.MONGO_DB_URI,
   JWT_SECRET: process.env.JWT_SECRET,
   CORS_ORIGIN: process.env.CORS_ORIGIN,
+  PORT: process.env.PORT || 3500,
 };
