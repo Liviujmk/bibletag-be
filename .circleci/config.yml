@@ -21,7 +21,7 @@ jobs:
           paths:
             - .
 
-  deploy: # this can be any name you choose
+  deploy: # this can be any name
     executor: heroku/default
     steps:
       - attach_workspace:
