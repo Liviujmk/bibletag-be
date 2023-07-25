@@ -9,7 +9,7 @@ import { Reflector } from '@nestjs/core';
 import { Request } from 'express';
 
 import { configOptions } from 'src/shared/config/app.config.options';
-import { IS_PUBLIC_KEY } from 'src/shared/constants/meta-data';
+import { IS_PUBLIC_KEY } from 'src/shared/constants/public-data';
 
 @Injectable()
 export class AuthGuard implements CanActivate {

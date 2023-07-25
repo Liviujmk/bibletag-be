@@ -10,7 +10,7 @@ import {
 import { CollectionsService } from './collections.service';
 import { CreateCollectionDto } from './collection.dto';
 import { Collection } from './collection.entity';
-import { Public } from 'src/shared/constants/meta-data';
+import { Public } from 'src/shared/constants/public-data';
 
 @Controller('collections')
 export class CollectionsController {

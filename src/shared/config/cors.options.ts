@@ -26,6 +26,7 @@ export const allowMultipleOrigins = (
   const allowedOrigins = configOptions.CORS_ORIGIN;
   const origin = req.headers.origin;
   if (allowedOrigins.includes(origin)) {
+    console.log(allowedOrigins.includes(origin));
     res.setHeader('Access-Control-Allow-Origin', origin);
   }
   next();

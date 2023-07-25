@@ -10,7 +10,7 @@ import {
 import { ArticlesService } from './articles.service';
 import { CreateArticleDto } from './article.dto';
 import { Article } from './article.entity';
-import { Public } from 'src/shared/constants/meta-data';
+import { Public } from 'src/shared/constants/public-data';
 
 @Controller('articles')
 export class ArticlesController {
